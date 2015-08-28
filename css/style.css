@@ -1,0 +1,432 @@
+@font-face {
+  font-family: 'Absolut-Bold';
+  src: url('../fonts/Bold Font Family/Absolut-Bold.eot');
+  src: url('../fonts/Bold Font Family/Absolut-Bold.eot?iefix') format('eot'), url('../fonts/Bold Font Family/Absolut-Bold.woff') format('woff'), url('../fonts/Bold Font Family/Absolut-Bold.ttf') format('truetype'), url('../fonts/Bold Font Family/Absolut-Bold.svg#webfont') format('svg');
+}
+@font-face {
+  font-family: 'absolutheadline-webfont';
+  src: url('../fonts/Headline Font Family/absolutheadline-webfont.eot');
+  src: url('../fonts/Headline Font Family/absolutheadline-webfont.eot?iefix') format('eot'), url('../fonts/Headline Font Family/absolutheadline-webfont.woff') format('woff'), url('../fonts/Headline Font Family/absolutheadline-webfont.ttf') format('truetype'), url('../fonts/Headline Font Family/absolutheadline-webfont.svg#webfont') format('svg');
+}
+@font-face {
+  font-family: 'Absolut-Medium';
+  src: url('../fonts/Medium Font Family/Absolut-Medium.eot');
+  src: url('../fonts/Medium Font Family/Absolut-Medium.eot?iefix') format('eot'), url('../fonts/Medium Font Family/Absolut-Medium.woff') format('woff'), url('../fonts/Medium Font Family/Absolut-Medium.ttf') format('truetype'), url('../fonts/Medium Font Family/Absolut-Medium.svg#webfont') format('svg');
+}
+@font-face {
+  font-family: 'Absolut-Regular';
+  src: url('../fonts/Regular Font Family/Absolut-Regular.eot');
+  src: url('../fonts/Regular Font Family/Absolut-Regular.eot?iefix') format('eot'), url('../fonts/Regular Font Family/Absolut-Regular.woff') format('woff'), url('../fonts/Regular Font Family/Absolut-Regular.ttf') format('truetype'), url('../fonts/Regular Font Family/Absolut-Regular.svg#webfont') format('svg');
+}
+@font-face {
+  font-family: 'Absolut-RegularItalic';
+  src: url('../fonts/Regular Italic Font Family/Absolut-RegularItalic.eot');
+  src: url('../fonts/Regular Italic Font Family/Absolut-RegularItalic.eot?iefix') format('eot'), url('../fonts/Regular Italic Font Family/Absolut-RegularItalic.woff') format('woff'), url('../fonts/Regular Italic Font Family/Absolut-RegularItalic.ttf') format('truetype'), url('../fonts/Regular Italic Font Family/Absolut-RegularItalic.svg#webfont') format('svg');
+}
+@font-face {
+  font-family: 'Absolut-RegularReclined';
+  src: url('../fonts/Regular Reclined Font Family/Absolut-RegularReclined.eot');
+  src: url('../fonts/Regular Reclined Font Family/Absolut-RegularReclined.eot?iefix') format('eot'), url('../fonts/Regular Reclined Font Family/Absolut-RegularReclined.woff') format('woff'), url('../fonts/Regular Reclined Font Family/Absolut-RegularReclined.ttf') format('truetype'), url('../fonts/Regular Reclined Font Family/Absolut-RegularReclined.svg#webfont') format('svg');
+}
+.box-shadow {
+  -webkit-box-shadow: 0px 7px 0 #022162;
+  -moz-box-shadow: 0px 7px 0 #022162;
+  -ms-box-shadow: 0px 7px 0 #022162;
+  -o-box-shadow: 0px 7px 0 #022162;
+  box-shadow: 0px 7px 0 #022162;
+}
+.font-courier {
+  font-family: Absolut-Regular;
+  font-size: 28px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  text-align: center;
+  min-height: 100vh;
+  overflow: auto;
+  position: relative;
+}
+#wrapper .absolut_arrow {
+  margin-top: 50px;
+  height: 95px;
+  border-bottom: 2px solid #cccdcb;
+}
+#wrapper .absolut_arrow a.arrow {
+  display: inline-block;
+  float: left;
+  margin-left: 50px;
+}
+#wrapper .absolut_select {
+  display: inline-block;
+  margin-right: 105px;
+}
+.content {
+  width: 90.6666%;
+  margin: 0 auto;
+}
+.block_logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -214px;
+  margin-top: -92px;
+}
+.block_absolut {
+  margin-top: 218px;
+}
+.block_button {
+  display: block;
+}
+.block_button a {
+  margin: 0 auto;
+  background: #0033a0;
+  color: #ffffff;
+  font-family: Absolut-Bold;
+  font-size: 36.4px;
+  line-height: 100px;
+  text-decoration: none;
+  height: 93px;
+  width: 81.2%;
+  display: block;
+  -webkit-box-shadow: 0px 7px 0 #022162;
+  -moz-box-shadow: 0px 7px 0 #022162;
+  -ms-box-shadow: 0px 7px 0 #022162;
+  -o-box-shadow: 0px 7px 0 #022162;
+  box-shadow: 0px 7px 0 #022162;
+}
+.block_list ul li {
+  border-bottom: 2px solid #cccdcb ;
+}
+.block_list ul li .text_left {
+  float: left;
+  font-size: 34.06px;
+  font-family: Absolut-Regular;
+  line-height: 97.02px;
+  margin-left: 13px;
+}
+.block_list ul li img {
+  padding: 13px 0 11px;
+  float: right;
+}
+article {
+  text-align: center;
+}
+article h1 {
+  font-family: absolutheadline-webfont;
+  font-size: 104px;
+  text-transform: uppercase;
+}
+article p.welcome_text {
+  font-family: Absolut-Regular;
+  font-size: 28.6px;
+  color: #000;
+  margin-top: 33px;
+  line-height: 39.199999999999996px;
+}
+.content p.text {
+  font-size: 34.06px;
+  font-family: Absolut-Medium;
+  line-height: 41.019999999999996px;
+  color: #000;
+  border-bottom: 2px solid #cccdcb;
+  padding: 23px 0 19px;
+  display: block;
+}
+.submit_button a {
+  margin: 0 auto;
+  background: #0033a0;
+  color: #ffffff;
+  font-family: Roboto-Bold-webfont;
+  font-size: 33.800000000000004px;
+  line-height: 93px;
+  text-decoration: none;
+  height: 93px;
+  width: 81.2%;
+  display: block;
+  -webkit-box-shadow: 0px 7px 0 #022162;
+  -moz-box-shadow: 0px 7px 0 #022162;
+  -ms-box-shadow: 0px 7px 0 #022162;
+  -o-box-shadow: 0px 7px 0 #022162;
+  box-shadow: 0px 7px 0 #022162;
+}
+.block_list ul.select_list li img.none {
+  display: none;
+}
+.block_list ul.select_list li.selected img {
+  display: none;
+}
+.block_list ul.select_list li.selected img.none {
+  display: block;
+}
+.map_courier {
+  width: 100%;
+}
+.map_courier img {
+  width: 100%;
+}
+.header_white_russian {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+}
+.header_white_russian img {
+  width: auto;
+  height: 430px;
+}
+.header_white_russian h1 {
+  color: #ffffff;
+  font-size: 34.06px;
+  font-family: Absolut-Medium;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-top: 35px;
+}
+.delivery_time {
+  margin-top: 38px;
+}
+.delivery_time h1 {
+  font-family: Absolut-Medium;
+  font-size: 44.2px;
+}
+.recipe {
+  margin-top: 57px;
+  border-bottom: 2px solid #cccdcb;
+  padding-bottom: 22px;
+}
+.recipe h2 {
+  font-size: 34.06px;
+  font-family: Absolut-Bold;
+}
+.recipe .ingredients {
+  text-align: right;
+  display: inline-block;
+  width: 350px;
+  font-size: 32.5px;
+  font-family: Absolut-Medium;
+  margin-top: 28px;
+  margin-right: 138px;
+  line-height: 49px;
+}
+.recipe .ingredients ul {
+  margin-right: 20px;
+}
+.recipe .ingredients ul li {
+  font-size: 28.002px;
+  line-height: 39.004px;
+}
+.recipe .ingredients ul li.check {
+  padding-right: 65px;
+  background: url("../img/icone_check.png") no-repeat right;
+}
+.recipe .ingredients ul li.none_check {
+  background: url("../img/icone.png") no-repeat 97% center;
+  background-position-x: 293px;
+  padding-right: 65px;
+}
+article h3 {
+  margin-top: 25px;
+  font-family: Absolut-Bold;
+  font-size: 39px;
+  margin-bottom: 10px;
+}
+article p.missing {
+  font-family: Absolut-Regular;
+  font-size: 22.1px;
+  display: block;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+article.missing_ingredients h3 {
+  font-size: 30.03px;
+}
+ul.courier {
+  text-align: left;
+}
+ul.courier li.courier_list {
+  border-bottom: 2px solid #cccdcb;
+  line-height: 104px;
+}
+ul.courier li.courier_list .courier_name {
+  font-family: Absolut-Regular;
+  font-size: 28px;
+  margin-right: 160px;
+  margin-left: 15px;
+}
+ul.courier li.courier_list .distance {
+  font-family: Absolut-Regular;
+  font-size: 28px;
+  color: #9fa1a2;
+}
+ul.courier li.courier_list .button_select_courier {
+  width: 22.8%;
+  height: 64px;
+  background: #ffffff;
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  line-height: 63px;
+  font-family: Absolut-Regular;
+  font-size: 28px;
+  border: 2px solid #b2b4b5;
+}
+ul.courier li.courier_list .button_select_courier a {
+  color: #63666a;
+  text-decoration: none;
+}
+ul.courier li.courier_list .button_select_courier.selected {
+  display: none;
+}
+ul.courier li.courier_list .button_select_courier.selected a {
+  display: none;
+}
+ul.courier li.courier_list .button_select_courier .selected_courier {
+  display: none;
+}
+ul.courier .button_select_courier {
+  float: right;
+}
+ul.courier li.selected .button_select_courier {
+  font-family: Absolut-Regular;
+  font-size: 28px;
+  width: 22.8%;
+  height: 64px;
+  background: #0033a0;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  line-height: 58px;
+}
+ul.courier li.selected .button_select_courier a.selected_courier {
+  display: block;
+  color: #ffffff;
+}
+ul.courier li.selected a {
+  display: none;
+}
+.round {
+  position: absolute;
+  bottom: 50%;
+  margin-bottom: -300px;
+  left: 50%;
+  margin-left: -375px;
+}
+.bottle_kahlua {
+  margin-top: 135px;
+}
+.bottle_kahlua img {
+  width: auto;
+  height: 652px;
+}
+.arrived_ingredient {
+  margin-top: 38px;
+  margin-bottom: 135px;
+  line-height: 41px;
+}
+.arrived_ingredient h1 {
+  font-size: 44.2px;
+  font-family: Absolut-Medium;
+}
+.clearfix {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.hfooter {
+  height: 75px;
+  padding-top: 88px;
+}
+.book_delivery_button a {
+  margin: 0 auto;
+  background: #0033a0;
+  color: #ffffff;
+  font-family: Absolut-Bold;
+  font-size: 33.800000000000004px;
+  line-height: 100px;
+  text-decoration: none;
+  height: 93px;
+  width: 81.2%;
+  display: block;
+  -webkit-box-shadow: 0px 7px 0 #022162;
+  -moz-box-shadow: 0px 7px 0 #022162;
+  -ms-box-shadow: 0px 7px 0 #022162;
+  -o-box-shadow: 0px 7px 0 #022162;
+  box-shadow: 0px 7px 0 #022162;
+  margin-bottom: 30px;
+}
+.button_bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 32px;
+}
+.button_bottom .block_share_button {
+  width: 33.8666%;
+  height: 81px;
+  background: #0033a0;
+  display: inline-block;
+  margin-right: 16px;
+  -webkit-box-shadow: 0px 7px 0 #022162;
+  -moz-box-shadow: 0px 7px 0 #022162;
+  -ms-box-shadow: 0px 7px 0 #022162;
+  -o-box-shadow: 0px 7px 0 #022162;
+  box-shadow: 0px 7px 0 #022162;
+}
+.button_bottom a.share_recipe_button {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  line-height: 88px;
+  margin-bottom: 30px;
+  font-family: Absolut-Bold;
+  font-size: 36.4px;
+}
+.button_bottom .block_recipe_button {
+  width: 33.8666%;
+  height: 81px;
+  background: #009775;
+  display: inline-block;
+  -webkit-box-shadow: 0px 7px 0 #022162;
+  -moz-box-shadow: 0px 7px 0 #022162;
+  -ms-box-shadow: 0px 7px 0 #022162;
+  -o-box-shadow: 0px 7px 0 #022162;
+  box-shadow: 0px 7px 0 #022162;
+  margin-bottom: 30px;
+}
+.button_bottom .button_green {
+  -moz-box-shadow: 0px 7px 0px #0e6c57;
+  -weblit-box-shadow: 0px 7px 0px #0e6c57;
+  -o-box-shadow: 0px 7px 0px #0e6c57;
+  -ms-box-shadow: 0px 7px 0px #0e6c57;
+  box-shadow: 0px 7px 0px #0e6c57;
+}
+.block_share img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.button_transparent a {
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+  opacity: 0;
+  position: absolute;
+  top: 92px;
+  left: 28px;
+}
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url("../img/page-loader.gif") 50% 50% no-repeat #f9f9f9;
+}

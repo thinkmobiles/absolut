@@ -98,7 +98,7 @@
 //   End Mixins    //
 
 
-body {
+body, html {
     margin: 0;
     padding: 0;
 }
@@ -117,7 +117,7 @@ body {
       float: left;
       margin-left: 50px;
       img{
-		height: 54px;
+    height: 54px;
       }
     }
   }
@@ -125,7 +125,7 @@ body {
     display: inline-block;
     margin-right: 105px;
     img{
-    	height: 54px;
+      height: 54px;
     }
   }
 }
@@ -146,7 +146,7 @@ body {
 .block_absolut {
   margin-top: 230px;
   img{
-  	width: 320px;
+    width: 320px;
   }
 }
 
@@ -159,8 +159,8 @@ body {
   background: @button-color;
   color: #ffffff;
   font-family:@font-absolut-bold;
-  .font-size(28);
-  line-height: 125px;
+  .font-size(34);
+  line-height: 132px;
   text-decoration: none;
   height: 125px;
   width: 81.2%;
@@ -322,8 +322,7 @@ article {
   p.missing {
     font-family:@font-absolut-regular;
     font-size: 30px;
-    display: block;
-    .line-height(34.6);
+    line-height: 48px;
     margin-bottom: 10px;
   }
 }
@@ -361,6 +360,9 @@ ul.courier {
       a {
         color: #63666a;
         text-decoration: none;
+        &.normal_courier{
+          display: block;
+        }
       }
       &.selected {
         display: none;
@@ -387,10 +389,12 @@ ul.courier {
       background: @button-color;
       text-align: center;
       color: #ffffff;
-      margin-top: 22px;
-      margin-bottom: 20px;
-      line-height: 58px;
-
+      margin-top: 27px;
+      margin-bottom: 30px;
+      line-height: 64px;
+      a.normal_courier{
+        display: none;
+      }
       a.selected_courier {
         display: block;
         color: #ffffff;
@@ -438,8 +442,7 @@ ul.courier {
 }
 
 .hfooter {
-  height: 75px;
-  padding-top: 88px;
+  height: 150px;
 }
 
 .book_delivery_button {
@@ -448,8 +451,8 @@ ul.courier {
       background: @button-color;
       color: #ffffff;
       font-family: @font-absolut-bold;
-      .font-size(28);
-      line-height: 125px;
+      .font-size(34);
+      line-height: 140px;
       text-decoration: none;
       height: 125px;
       width: 81.2%;
@@ -477,10 +480,10 @@ ul.courier {
       display: block;
         text-decoration: none;
         color: #fff;
-        line-height: 120px;
+        line-height: 132px;
         margin-bottom: 30px;
         font-family:@font-absolut-bold;
-        .font-size(31);
+        .font-size(34);
     }
     .block_recipe_button {
         width: 33.8666%;

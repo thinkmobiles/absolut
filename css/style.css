@@ -37,7 +37,7 @@
 }
 .font-courier {
   font-family: Absolut-Regular;
-  font-size: 28px;
+  font-size: 40px;
 }
 body {
   margin: 0;
@@ -50,8 +50,8 @@ body {
   position: relative;
 }
 #wrapper .absolut_arrow {
-  margin-top: 50px;
-  height: 95px;
+  margin-top: 55px;
+  height: 105px;
   border-bottom: 2px solid #cccdcb;
 }
 #wrapper .absolut_arrow a.arrow {
@@ -59,9 +59,15 @@ body {
   float: left;
   margin-left: 50px;
 }
+#wrapper .absolut_arrow a.arrow img {
+  height: 54px;
+}
 #wrapper .absolut_select {
   display: inline-block;
   margin-right: 105px;
+}
+#wrapper .absolut_select img {
+  height: 54px;
 }
 .content {
   width: 90.6666%;
@@ -75,7 +81,10 @@ body {
   margin-top: -92px;
 }
 .block_absolut {
-  margin-top: 218px;
+  margin-top: 230px;
+}
+.block_absolut img {
+  width: 320px;
 }
 .block_button {
   display: block;
@@ -85,10 +94,10 @@ body {
   background: #0033a0;
   color: #ffffff;
   font-family: Absolut-Bold;
-  font-size: 36.4px;
-  line-height: 100px;
+  font-size: 44.2px;
+  line-height: 132px;
   text-decoration: none;
-  height: 93px;
+  height: 125px;
   width: 81.2%;
   display: block;
   -webkit-box-shadow: 0px 7px 0 #022162;
@@ -102,37 +111,39 @@ body {
 }
 .block_list ul li .text_left {
   float: left;
-  font-size: 34.06px;
+  font-size: 41.6px;
   font-family: Absolut-Regular;
-  line-height: 97.02px;
+  line-height: 120.39999999999999px;
   margin-left: 13px;
 }
 .block_list ul li img {
-  padding: 13px 0 11px;
+  padding: 25px 0;
   float: right;
+  height: 76px;
 }
 article {
   text-align: center;
 }
 article h1 {
   font-family: absolutheadline-webfont;
-  font-size: 104px;
+  font-size: 122.2px;
   text-transform: uppercase;
+  letter-spacing: -3px;
 }
 article p.welcome_text {
   font-family: Absolut-Regular;
-  font-size: 28.6px;
+  font-size: 33.15px;
   color: #000;
   margin-top: 33px;
-  line-height: 39.199999999999996px;
+  line-height: 53.199999999999996px;
 }
 .content p.text {
-  font-size: 34.06px;
+  font-size: 49.4px;
   font-family: Absolut-Medium;
-  line-height: 41.019999999999996px;
+  line-height: 56px;
   color: #000;
   border-bottom: 2px solid #cccdcb;
-  padding: 23px 0 19px;
+  padding: 32px 0;
   display: block;
 }
 .submit_button a {
@@ -174,16 +185,16 @@ article p.welcome_text {
 }
 .header_white_russian img {
   width: auto;
-  height: 430px;
+  height: 600px;
 }
 .header_white_russian h1 {
   color: #ffffff;
-  font-size: 34.06px;
+  font-size: 52px;
   font-family: Absolut-Medium;
   position: absolute;
   top: 0;
   width: 100%;
-  padding-top: 35px;
+  padding-top: 65px;
 }
 .delivery_time {
   margin-top: 38px;
@@ -195,70 +206,70 @@ article p.welcome_text {
 .recipe {
   margin-top: 57px;
   border-bottom: 2px solid #cccdcb;
-  padding-bottom: 22px;
+  padding-bottom: 40px;
 }
 .recipe h2 {
-  font-size: 34.06px;
+  font-size: 44.2px;
   font-family: Absolut-Bold;
 }
 .recipe .ingredients {
   text-align: right;
   display: inline-block;
-  width: 350px;
-  font-size: 32.5px;
+  width: 480px;
+  font-size: 28.6px;
   font-family: Absolut-Medium;
-  margin-top: 28px;
-  margin-right: 138px;
-  line-height: 49px;
+  margin-top: 30px;
+  margin-right: 230px;
+  line-height: 42px;
 }
 .recipe .ingredients ul {
   margin-right: 20px;
 }
 .recipe .ingredients ul li {
-  font-size: 28.002px;
-  line-height: 39.004px;
+  font-size: 40.300000000000004px;
+  line-height: 55.019999999999996px;
 }
 .recipe .ingredients ul li.check {
   padding-right: 65px;
-  background: url("../img/icone_check.png") no-repeat right;
+  background: url("../img/icone_check.png") no-repeat right center;
+  background-size: 41px;
 }
 .recipe .ingredients ul li.none_check {
   background: url("../img/icone.png") no-repeat 97% center;
-  background-position-x: 293px;
+  background-size: 30px;
   padding-right: 65px;
 }
 article h3 {
   margin-top: 25px;
   font-family: Absolut-Bold;
-  font-size: 39px;
-  margin-bottom: 10px;
+  font-size: 35.1px;
+  margin-bottom: 25px;
 }
 article p.missing {
   font-family: Absolut-Regular;
-  font-size: 22.1px;
-  display: block;
-  line-height: 28px;
+  /*font-size: 31px;*/
+  line-height: 48px;
   margin-bottom: 10px;
 }
 article.missing_ingredients h3 {
-  font-size: 30.03px;
+  font-size: 40.04px;
 }
 ul.courier {
   text-align: left;
 }
 ul.courier li.courier_list {
   border-bottom: 2px solid #cccdcb;
-  line-height: 104px;
+  line-height: 114px;
 }
 ul.courier li.courier_list .courier_name {
   font-family: Absolut-Regular;
-  font-size: 28px;
+  font-size: 40px;
   margin-right: 160px;
   margin-left: 15px;
 }
 ul.courier li.courier_list .distance {
   font-family: Absolut-Regular;
-  font-size: 28px;
+  font-size: 40px;
   color: #9fa1a2;
 }
 ul.courier li.courier_list .button_select_courier {
@@ -266,16 +277,19 @@ ul.courier li.courier_list .button_select_courier {
   height: 64px;
   background: #ffffff;
   text-align: center;
-  margin-top: 22px;
-  margin-bottom: 20px;
-  line-height: 63px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  line-height: 64px;
   font-family: Absolut-Regular;
-  font-size: 28px;
+  font-size: 40px;
   border: 2px solid #b2b4b5;
 }
 ul.courier li.courier_list .button_select_courier a {
   color: #63666a;
   text-decoration: none;
+}
+ul.courier li.courier_list .button_select_courier a.normal_courier {
+  display: block;
 }
 ul.courier li.courier_list .button_select_courier.selected {
   display: none;
@@ -291,15 +305,18 @@ ul.courier .button_select_courier {
 }
 ul.courier li.selected .button_select_courier {
   font-family: Absolut-Regular;
-  font-size: 28px;
+  font-size: 40px;
   width: 22.8%;
   height: 64px;
   background: #0033a0;
   text-align: center;
   color: #ffffff;
-  margin-top: 22px;
-  margin-bottom: 20px;
-  line-height: 58px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  line-height: 64px;
+}
+ul.courier li.selected .button_select_courier a.normal_courier {
+  display: none;
 }
 ul.courier li.selected .button_select_courier a.selected_courier {
   display: block;
@@ -320,15 +337,15 @@ ul.courier li.selected a {
 }
 .bottle_kahlua img {
   width: auto;
-  height: 652px;
+  height: 600px;
 }
 .arrived_ingredient {
   margin-top: 38px;
   margin-bottom: 135px;
-  line-height: 41px;
+  line-height: 71px;
 }
 .arrived_ingredient h1 {
-  font-size: 44.2px;
+  font-size: 52px;
   font-family: Absolut-Medium;
 }
 .clearfix {
@@ -339,18 +356,17 @@ ul.courier li.selected a {
   visibility: hidden;
 }
 .hfooter {
-  height: 75px;
-  padding-top: 88px;
+  height: 150px;
 }
 .book_delivery_button a {
   margin: 0 auto;
   background: #0033a0;
   color: #ffffff;
   font-family: Absolut-Bold;
-  font-size: 33.800000000000004px;
-  line-height: 100px;
+  font-size: 44.2px;
+  line-height: 140px;
   text-decoration: none;
-  height: 93px;
+  height: 125px;
   width: 81.2%;
   display: block;
   -webkit-box-shadow: 0px 7px 0 #022162;
@@ -358,17 +374,17 @@ ul.courier li.selected a {
   -ms-box-shadow: 0px 7px 0 #022162;
   -o-box-shadow: 0px 7px 0 #022162;
   box-shadow: 0px 7px 0 #022162;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .button_bottom {
   width: 100%;
   position: absolute;
   bottom: 0;
-  margin-bottom: 32px;
+  margin-bottom: 75px;
 }
 .button_bottom .block_share_button {
   width: 33.8666%;
-  height: 81px;
+  height: 120px;
   background: #0033a0;
   display: inline-block;
   margin-right: 16px;
@@ -382,14 +398,14 @@ ul.courier li.selected a {
   display: block;
   text-decoration: none;
   color: #fff;
-  line-height: 88px;
+  line-height: 132px;
   margin-bottom: 30px;
   font-family: Absolut-Bold;
-  font-size: 36.4px;
+  font-size: 44.2px;
 }
 .button_bottom .block_recipe_button {
   width: 33.8666%;
-  height: 81px;
+  height: 120px;
   background: #009775;
   display: inline-block;
   -webkit-box-shadow: 0px 7px 0 #022162;
